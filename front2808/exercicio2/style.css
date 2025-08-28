@@ -1,0 +1,59 @@
+/* Container centralizado */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 320px;
+}
+
+/* Estilo do input */
+#numero {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s;
+}
+
+#numero:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Estilo do botão */
+#btnCalcular {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#btnCalcular:hover {
+  background-color: #357abd;
+}
+
+/* Estilo do resultado */
+#resultado {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  min-height: 1.4rem; /* Para evitar salto visual ao aparecer texto */
+}
