@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contar pares e impares</title>
+    <link rel="stylesheet" href="style.css">
+    <script scr ="script.js"></script>
+  </head>
+<body>
+  <h2> Gerar 10 numeros aleatorios (1 a 100) </h2>  
+  <button onclick="gerarnumeros()">Gerar</button>
+  <p id="resultado"></p>
+
+  <script>
+    function gerarnumeros(){
+        let numeros = [];
+        let pares = 0;
+        let impares = 0;
+
+        for (let i = 0; i <10; i++){
+            let n = Math.floor(Math.random()* 100) + 1;
+            numeros.push(n);
+            if (n % 2 === 0) {
+                pares++;
+            } else {
+                impares++;
+                document.getElementById("resultado").innerHTML = 
+                "numeros gerados: " + numeros.join(",") + "<br>" +
+                "pares: " + pares + "<br>" + "impares: " + impares; {
+
+                }
+
+            }
+            }
+        }
+    
+  </script>
+</body>
+</html>

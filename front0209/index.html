@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios com vetores</title>
+ <link rel=""stylesheet" href="style.css">
+ <script src="script.js" defer></script>
+ <h1>soma dos elementos</h1>
+</head>
+<body>
+    <h2>soma de um vetor com 5 numeros</h2>
+    <p id="resultado"></p>
+    <script>
+ // criando o vetor de 5 numeros.
+  let numeros = [10,20,30,40,50];
+  let soma = 0;
+   for(let i = 0; i < numeros.length; i++){
+    soma += numeros[i];
+    document.getElementById("resultado").innerHTML = "Vetor: " + numeros.join(",") + "<br>" + "soma:" + soma;
+
+   }
+
+    </script>
+    
+</body>
+</html>
+
