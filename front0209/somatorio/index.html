@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Somatório</title>
+</head>
+<body>
+    <h1>Somatório de Números</h1>
+
+    <button onclick="somatorio()">Iniciar Somatório</button>
+
+    <h2>Resultado:</h2>
+    <p id="resultado"></p>
+
+    <script>
+        function somatorio() {
+            let soma = 0;
+            let numero;
+
+            // Enquanto o usuário não digitar 0
+            while (true) {
+                numero = parseFloat(prompt("Digite um número (0 para parar):"));
+
+                if (isNaN(numero)) {
+                    alert("Por favor, digite um número válido!");
+                    continue;
+                }
+
+                if (numero === 0) {
+                    break; // sai do laço quando o número for 0
+                }
+
+                soma += numero;
+            }
+
+            document.getElementById("resultado").innerHTML = `A soma total é: ${soma}`;
+        }
+    </script>
+</body>
+</html>

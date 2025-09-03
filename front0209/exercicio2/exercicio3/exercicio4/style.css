@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #3333cc;
+}
+
+h2 {
+    color: #6666cc;
+}
+
+#inputs input {
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3333cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000080;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #000080;
+    font-weight: bold;
+}
