@@ -1,0 +1,55 @@
+ body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .praia-img {
+      width: 350px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .lista-atividades {
+      font-size: 18px;
+      font-weight: bold;
+      color: #da7676;
+      background-color: #fff;
+      padding: 10px;
+      margin: 5px auto;
+      width: fit-content;
+      border-radius: 5px;
+    }
+
+    .formulario {
+      margin-top: 30px;
+      background-color: #c49191;
+      padding: 20px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .formulario label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .formulario input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
